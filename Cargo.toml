@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "src/ngpu-ic-backend",
+    "src/ngpu-icrc"
+]
+resolver = "2"
