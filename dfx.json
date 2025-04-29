@@ -14,7 +14,7 @@
       "type": "custom",
       "candid": "https://raw.githubusercontent.com/dfinity/ic/2190613d3b5bcd9b74c382b22d151580b8ac271a/rs/ledger_suite/icrc1/ledger/ledger.did",
       "wasm": "https://download.dfinity.systems/ic/2190613d3b5bcd9b74c382b22d151580b8ac271a/canisters/ic-icrc1-ledger.wasm.gz",
-      "init_arg": "(variant { Init = record { token_symbol = \"NXG\"; token_name = \"Next GPU\"; minting_account = record { owner = principal \"4tllr-vzypt-w73my-r4ose-dgwnc-oprwp-lwtej-y2ztu-75upd-xwuff-oae\"}; transfer_fee = 10000; metadata = vec {}; feature_flags = opt record{icrc2 = true}; initial_balances = vec { record { record { owner = principal \"4tllr-vzypt-w73my-r4ose-dgwnc-oprwp-lwtej-y2ztu-75upd-xwuff-oae\"; }; 1000000000; }; }; archive_options = record { num_blocks_to_archive = 100; trigger_threshold = 100; controller_id = principal \"rqnis-phbva-h6lbq-lpcdd-qon2g-zdkqy-trlxa-oyjpc-76xwa-nc4v2-bae\"; cycles_for_archive_creation = opt 10000000000000; };} })"
+      "init_arg": "(variant { Init = record { token_symbol = \"NXG\"; token_name = \"Next GPU\"; minting_account = record { owner = principal \"4tllr-vzypt-w73my-r4ose-dgwnc-oprwp-lwtej-y2ztu-75upd-xwuff-oae\"}; transfer_fee = 10000; metadata = vec {}; feature_flags = opt record{icrc2 = true}; initial_balances = vec { record { record { owner = principal \"4tllr-vzypt-w73my-r4ose-dgwnc-oprwp-lwtej-y2ztu-75upd-xwuff-oae\"; }; 100000000000000000; }; }; archive_options = record { num_blocks_to_archive = 100; trigger_threshold = 100; controller_id = principal \"rqnis-phbva-h6lbq-lpcdd-qon2g-zdkqy-trlxa-oyjpc-76xwa-nc4v2-bae\"; cycles_for_archive_creation = opt 10000000000000; };} })"
   }
 },
   "defaults": {
